@@ -1,4 +1,62 @@
-
 img {
-  width: 30px;
+  width: 330px;
+  height: 250px;
+  object-fit: contain;
+  margin: 20px;
+}
+h1{
+    font-size: 100px;
+    color : orange;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#bottone-titolo{
+    justify-content: center;
+    align-items: center;
+}
+#bottone-colore{
+    margin-left: 10px;
+}
+button{
+    border-radius: 20px;
+    width: 130px;
+    height: 50px;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+th {
+    font-size: 17px;
+}
+#prezzi{
+    font-size: 20px;
+    color: #00ab03;
+    font-weight: bold;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0819fa;
+    background-color: rgb(238, 243, 243);
+    padding: 5px;
+    border-radius: 10px;
+}
+#link{
+    text-align: center;
+    margin: 5px;
+}
+#descrizione{
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+#bottoni {
+    display: flex;
+    margin-bottom: 50px;
 }
