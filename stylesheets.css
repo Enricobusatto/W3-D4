@@ -43,8 +43,45 @@ img {
     font-size: 28px;
     color: #00ab03;
     font-weight: bold;
+    cursor: pointer;
+    
 }
-  
+#prezzi .limoncello:hover {
+    transform: scale(1.05);
+    color: #c00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease, color 0.2s ease;
+
+
+  }
+#prezzi .vino:hover {
+    transform: scale(1.05);
+    color: #c00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease, color 0.2s ease;
+
+  }
+#prezzi .cannoli:hover {
+    transform: scale(1.05);
+    color: #c00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease, color 0.2s ease;
+
+  }
+#prezzi .olio:hover {
+    transform: scale(1.05);
+    color: #c00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease, color 0.2s ease;
+
+  }
+#prezzi .arancini:hover {
+    transform: scale(1.05);
+    color: #c00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease, color 0.2s ease;
+
+  }
 a {
     text-decoration: none;
     font-weight: bold;
@@ -106,5 +143,16 @@ th {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.2s ease, color 0.2s ease;
+
     
-}
+}  
+  thead th:hover {
+    transform: scale(1.05);
+    color: #c00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+.nascosta {
+    display: none;
+  }
